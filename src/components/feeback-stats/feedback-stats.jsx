@@ -1,3 +1,5 @@
+import "./feedback-stats.css";
+
 export default function FeedbackStats({ feedback }) {
   let avarage =
     feedback.reduce((acc, curr) => {

@@ -1,8 +1,11 @@
 # Feedback UI
 
 A small old project I did as a junior, refactored to a decent standard for fun.
+
 Here's a preview of the application.
 ![gif showcasing the app look and functionality](public/feedback-ui.gif)
+
+You can visit the pull application on [GitHub Pages](https://ivanaogrizovic.github.io/feedback-app).
 
 ## Tech stack
 
@@ -10,7 +13,7 @@ Here's a preview of the application.
 - Javascript
 - CSS
 - Framer motion
-- JSON Server Mock Backend
+- JSON Server Mock Backend (still refactoring)
 
 ## Setting up
 

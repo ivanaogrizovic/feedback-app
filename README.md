@@ -1,11 +1,10 @@
 # Feedback UI
 
-A small old project I did as a junior, refactored to a decent standard for fun.
+### Hosted on [GitHub Pages](https://ivanaogrizovic.github.io/feedback-app).
 
-Here's a preview of the application.
+Feedback UI is a small application that allows you to add and remove feedback. A small old project I did as a junior, refactored to a decent standard for fun.
+
 ![gif showcasing the app look and functionality](public/feedback-ui.gif)
-
-You can visit the pull application on [GitHub Pages](https://ivanaogrizovic.github.io/feedback-app).
 
 ## Tech stack
 

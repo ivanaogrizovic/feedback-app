@@ -52,7 +52,7 @@ export default function FeedbackForm({ handleAdd }) {
             Send feedback
           </Button>
         </div>
-        {message && <div className="message">{message}</div>}
+        <div className="message">{message}</div>
       </form>
     </Card>
   );

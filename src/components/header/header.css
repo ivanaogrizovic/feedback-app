@@ -1,10 +1,10 @@
 header {
-  height: 70px;
+  height: 4.4rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 1.8rem;
   background-color: rgba(0, 0, 0, 0.4);
   color: var(--primary-color);
 }

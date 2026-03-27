@@ -82,12 +82,6 @@ header {
   color: #fff;
 }
 
-.num-display {
-  position: absolute;
-  top: -10px;
-  left: -10px;
-}
-
 .close,
 .edit {
   position: absolute;

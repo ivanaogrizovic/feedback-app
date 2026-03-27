@@ -1,3 +1,5 @@
+import "./button.css";
+
 export default function Button({
   children,
   theme = "primary",

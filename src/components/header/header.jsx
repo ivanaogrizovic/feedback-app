@@ -1,3 +1,5 @@
+import "./header.css";
+
 export default function Header({ title = "Feedback UI" }) {
   return (
     <header>

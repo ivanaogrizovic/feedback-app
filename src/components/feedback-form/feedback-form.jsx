@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Card from "../card/card";
+import Button from "../button/button";
 
 export default function FeedbackForm() {
   const [text, setText] = useState("");
@@ -20,7 +21,9 @@ export default function FeedbackForm() {
             value={text}
             onChange={handleTextInput}
           />
-          <button type="submit">Send feedback</button>
+          <Button type="submit" isDisabled={true}>
+            Send feedback
+          </Button>
         </div>
       </form>
     </Card>

@@ -2,6 +2,7 @@ import { useState } from "react";
 import Card from "../card/card";
 import Button from "../button/button";
 import RatingSelect from "../rating-select/rating-select";
+import "./feedback-form.css";
 
 export default function FeedbackForm({ handleAdd }) {
   const [text, setText] = useState("");

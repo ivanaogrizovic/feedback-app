@@ -1,9 +1,11 @@
 import { useState } from "react";
 import Card from "../card/card";
 import Button from "../button/button";
+import RatingSelect from "../rating-select/rating-select";
 
 export default function FeedbackForm() {
   const [text, setText] = useState("");
+  const [rating, setRating] = useState(10);
   const [buttonDisabled, setButtonDisabled] = useState(true);
   const [message, setMessage] = useState("");
 
@@ -24,7 +26,7 @@ export default function FeedbackForm() {
     <Card>
       <form>
         <h2>How would you rate your service with us?</h2>
-        {/* Todo: rating select component */}
+        <RatingSelect setRating={(rating) => setRating(rating)} />
         <div className="input-group">
           <input
             type="text"

@@ -6,5 +6,5 @@ header {
   align-items: center;
   margin-bottom: 30px;
   background-color: rgba(0, 0, 0, 0.4);
-  color: #ff6a95;
+  color: var(--primary-color);
 }

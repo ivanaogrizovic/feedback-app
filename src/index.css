@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
+:root {
+  --dark-background-color: #202142;
+  --primary-color: #ff6a95;
+  --white: #fff;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,8 +14,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #202142;
-  color: #fff;
+  background-color: var(--dark-background-color);
+  color: var(--white);
   line-height: 1.6;
 }
 
@@ -23,17 +29,9 @@ ul {
   padding: 0 20px;
 }
 
-.rating {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin: 30px 0 40px;
-}
-
 .rating li,
 .num-display {
   position: relative;
-  background: #f4f4f4;
   width: 50px;
   height: 50px;
   padding: 10px;
@@ -44,22 +42,16 @@ ul {
   transition: 0.3s;
 }
 
-.rating li label {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 50px;
-  height: 50px;
-  padding: 10px;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  cursor: pointer;
-}
-
 .rating li:hover,
 .num-display {
-  background: #ff6a95;
-  color: #fff;
+  background: var(--primary-color);
+  color: var(--white);
+}
+
+.num-display {
+  position: absolute;
+  top: -10px;
+  left: -10px;
 }
 
 [type="radio"] {
@@ -67,18 +59,8 @@ ul {
 }
 
 [type="radio"]:checked ~ label {
-  background: #ff6a95;
-  color: #fff;
-}
-
-.close,
-.edit {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  cursor: pointer;
-  background: none;
-  border: none;
+  background: var(--primary-color);
+  color: var(--white);
 }
 
 .edit {
@@ -88,25 +70,21 @@ ul {
 .message {
   padding-top: 10px;
   text-align: center;
-  color: rebeccapurple;
+  color: #663399;
 }
 
-/* FIX: Remove position: absolute to keep about icon at the bottom of the
- * document */
 .about-link {
   display: flex;
   justify-content: flex-end;
 }
 
-/* FIX: Remove position: absolute to keep about icon at the bottom of the
- * document */
 .about-link a {
-  color: #fff;
+  color: var(--white);
   cursor: pointer;
 }
 
 .about-link a:hover {
-  color: #ff6a95;
+  color: var(--primary-color);
 }
 
 .about h1 {
@@ -115,18 +93,4 @@ ul {
 
 .about p {
   margin: 10px 0;
-}
-
-@media (max-width: 600px) {
-  .rating li {
-    margin: 10px 3px;
-  }
-
-  .rating {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 30px 0 40px;
-  }
 }

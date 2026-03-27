@@ -6,7 +6,7 @@ export default function FeedbackList({ feedback, handleDelete }) {
     return <p>No feedback yet</p>;
   }
   return (
-    <div className="feedback-list">
+    <div>
       <AnimatePresence>
         {feedback.map((item) => (
           <motion.div

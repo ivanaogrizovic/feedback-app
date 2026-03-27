@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/feedback-ui/static/css/main.ad215496.css",
-    "main.js": "/feedback-ui/static/js/main.e2850457.js",
-    "static/js/453.976f0c48.chunk.js": "/feedback-ui/static/js/453.976f0c48.chunk.js",
-    "index.html": "/feedback-ui/index.html",
-    "main.ad215496.css.map": "/feedback-ui/static/css/main.ad215496.css.map",
-    "main.e2850457.js.map": "/feedback-ui/static/js/main.e2850457.js.map",
-    "453.976f0c48.chunk.js.map": "/feedback-ui/static/js/453.976f0c48.chunk.js.map"
+    "main.css": "/feedback-app/static/css/main.ad215496.css",
+    "main.js": "/feedback-app/static/js/main.2614f9a0.js",
+    "static/js/453.976f0c48.chunk.js": "/feedback-app/static/js/453.976f0c48.chunk.js",
+    "index.html": "/feedback-app/index.html",
+    "main.ad215496.css.map": "/feedback-app/static/css/main.ad215496.css.map",
+    "main.2614f9a0.js.map": "/feedback-app/static/js/main.2614f9a0.js.map",
+    "453.976f0c48.chunk.js.map": "/feedback-app/static/js/453.976f0c48.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ad215496.css",
-    "static/js/main.e2850457.js"
+    "static/js/main.2614f9a0.js"
   ]
 }

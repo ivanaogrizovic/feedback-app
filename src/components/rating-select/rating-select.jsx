@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./rating-select.css";
 
 export default function RatingSelect({ setRating }) {
   const [selected, setSelected] = useState(10);

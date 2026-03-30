@@ -49,7 +49,7 @@ export default function FeedbackForm({ handleAdd }) {
             onChange={handleTextInput}
           />
           <Button type="submit" isDisabled={buttonDisabled}>
-            Send feedback
+            Send
           </Button>
         </div>
         <div className="message">{message}</div>

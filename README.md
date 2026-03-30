@@ -12,7 +12,7 @@ Feedback UI is a small application that allows you to add and remove feedback. A
 - Javascript
 - CSS
 - Framer motion
-- JSON Server Mock Backend (still refactoring)
+- JSON Server Mock Backend
 
 ## Setting up
 

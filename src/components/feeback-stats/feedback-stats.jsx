@@ -1,6 +1,9 @@
+import { useContext } from "react";
+import FeedbackContext from "../../context/feedbackContext";
 import "./feedback-stats.css";
 
-export default function FeedbackStats({ feedback }) {
+export default function FeedbackStats() {
+  const { feedback } = useContext(FeedbackContext);
   let avarage =
     feedback.reduce((acc, curr) => {
       return acc + curr.rating;

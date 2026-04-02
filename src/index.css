@@ -63,10 +63,6 @@ ul {
   color: var(--white);
 }
 
-.edit {
-  right: 2.5rem;
-}
-
 .message {
   padding-top: 0.625rem;
   text-align: center;

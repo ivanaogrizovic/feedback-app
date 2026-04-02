@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import FeedbackContext from "../../context/feedbackContext";
-import { motion, animatePresence, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import FeedbackItem from "../feedback-item/feedback-item";
 
 export default function FeedbackList() {

@@ -2,7 +2,7 @@
 
 :root {
   --dark-background-color: #1d2671;
-  --primary-color: #ff6a95;
+  --primary-color: #ff5786;
   --white: #fff;
 }
 
@@ -33,6 +33,10 @@ ul {
   padding: 0 1.25rem;
 }
 
+.rating li {
+  background-color: #f7f7f7;
+}
+
 .rating li,
 .num-display {
   position: relative;
@@ -42,7 +46,6 @@ ul {
   text-align: center;
   border-radius: 50%;
   font-size: 1.188rem;
-  border: 1px #eee solid;
   transition: 0.3s;
 }
 
@@ -56,6 +59,7 @@ ul {
   position: absolute;
   top: -10px;
   left: -10px;
+  font-weight: 700;
 }
 
 [type="radio"] {

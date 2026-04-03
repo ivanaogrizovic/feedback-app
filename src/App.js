@@ -8,7 +8,7 @@ import "./index.css";
 
 export default function App() {
   return (
-    <>
+    <main>
       <Header />
       <div className="container">
         <Routes>
@@ -17,6 +17,6 @@ export default function App() {
         </Routes>
       </div>
       <AboutIcon />
-    </>
+    </main>
   );
 }

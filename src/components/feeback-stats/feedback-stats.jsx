@@ -13,8 +13,8 @@ export default function FeedbackStats() {
 
   return (
     <div className="feedback-stats">
-      <h4>{feedback.length} Reviews</h4>
-      <h4>Avarage rating: {isNaN(avarage) ? 0 : avarage}</h4>
+      <h2>{feedback.length} Reviews</h2>
+      <h2>Avarage rating: {isNaN(avarage) ? 0 : avarage}</h2>
     </div>
   );
 }

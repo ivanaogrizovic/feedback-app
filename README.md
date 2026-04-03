@@ -12,7 +12,7 @@
     <a href="https://github.com/ivanaogrizovic/feedback-app"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <img src="public/feedback-ui.gif" alt="gif showcasing the app look and functionality">
+    <img src="public/feedback-ui.gif" alt="gif showcasing the app look and functionality" style="width: 800px;">
     <br />
   </p>
 </div>

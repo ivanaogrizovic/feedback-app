@@ -19,8 +19,8 @@ body {
   background-color: var(
     --dark-background-color
   ); /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #1d2671, #c33764);
-  background: linear-gradient(to right, #1d2671, #c33764);
+  background: -webkit-linear-gradient(to left, #1d2671, #c33764);
+  background: linear-gradient(to left, #1d2671, #c33764);
 }
 
 ul {

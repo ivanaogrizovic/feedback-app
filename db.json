@@ -1,19 +1,19 @@
 {
   "feedback": [
     {
-      "id": 1,
-      "text": "This is a feedback example",
-      "rating": 10
-    },
-    {
-      "id": 2,
-      "text": "You can add, delete, and update feedback elements",
-      "rating": 10
-    },
-    {
-      "id": 3,
       "text": "As they're being handled by json-server. Enjoy!",
-      "rating": 10
+      "rating": 5,
+      "id": 1
+    },
+    {
+      "text": "You can add, delete, and edit feedbacks.",
+      "rating": 10,
+      "id": 2
+    },
+    {
+      "text": "This is a feedback example.",
+      "rating": 7,
+      "id": 3
     }
   ]
 }

@@ -2,23 +2,18 @@
   "feedback": [
     {
       "id": 1,
-      "text": "this item 1, and it is from the database",
+      "text": "This is a feedback example",
       "rating": 10
     },
     {
       "id": 2,
-      "text": "this item 2, and it is from the database",
+      "text": "You can add, delete, and update feedback elements",
       "rating": 10
     },
     {
       "id": 3,
-      "text": "this item 3, and it is from the database",
+      "text": "As they're being handled by json-server. Enjoy!",
       "rating": 10
-    },
-    {
-      "text": "This is a new item that I have edited",
-      "rating": 4,
-      "id": 4
     }
   ]
 }

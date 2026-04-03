@@ -1,6 +1,6 @@
 # Feedback UI
 
-### Hosted on [GitHub Pages](https://ivanaogrizovic.github.io/feedback-app).
+### Hosted on [Netlify](https://reactfeedbackui.netlify.app/).
 
 Feedback UI is a small application that allows you to add and remove feedback. A small old project I did as a junior, refactored to a decent standard for fun.
 
@@ -12,7 +12,7 @@ Feedback UI is a small application that allows you to add and remove feedback. A
 - Javascript
 - CSS
 - Framer motion
-- JSON Server Mock Backend
+- JSON Server Mock Backend (in progress)
 
 ## Setting up
 

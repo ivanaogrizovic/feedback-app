@@ -12,12 +12,13 @@ Feedback UI is a small application that allows you to add and remove feedback. A
 - Javascript
 - CSS
 - Framer motion
-- JSON Server Mock Backend (in progress)
+- JSON Server Mock Backend
 
 ## Setting up
 
 - Clone the repository using `git clone`
 - In your local environment, run `npm install` from the terminal
-- Run the project with `npm run start`
+- Run the project with `npm run dev`
+- The server will be running on port `5000`, while the FE will be on port `3000`
 
 You're all set!

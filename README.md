@@ -105,4 +105,6 @@ If you have any other processes running on port 3000 or 5000, kill them.
 
 - This was made as part of a Udemy course for learning purposes
 
+[![SAFE-HAND MADE CODE](https://img.shields.io/badge/SAFE-HAND%20MADE%20CODE-32CD32)](https://github.com/40ants/ai-badges)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

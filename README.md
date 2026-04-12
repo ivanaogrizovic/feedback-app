@@ -1,4 +1,5 @@
 <a id="readme-top"></a>
+[![Icoziv-icons](https://i.icoziv.workers.dev/icons?i=css,framermotion-dark,json-dark,reactjs-dark,reactrouter)](https://i.icoziv.workers.dev)
 
 <br />
 <div align="center">
